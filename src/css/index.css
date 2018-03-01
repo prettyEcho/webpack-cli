@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.demo1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.demo2 {
+    width: 200px;
+    height: 200px;
+    background: url("../img/test.jpg") no-repeat;
+    background-size: cover;
+}
