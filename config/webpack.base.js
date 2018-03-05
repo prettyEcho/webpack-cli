@@ -52,8 +52,8 @@ let config = {
             {
                 test: /.(jpg|png|gif|svg)$/, 
                 loader: process.env.NODE_ENV == 'prod'
-                    ? 'url-loader?limit=8192&name=[name].[hash:8].[ext]'
-                    : 'url-loader?limit=8192&name=[name].[ext]'
+                    ? 'url-loader?limit=8192&name=/img/[name].[hash:8].[ext]'
+                    : 'url-loader?limit=8192&name=img/[name].[ext]'
             }
         ]
     },
